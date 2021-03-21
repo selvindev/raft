@@ -2,6 +2,7 @@
     "name": "selvinortiz/raft",
     "description": "A set of utilities fastened together to help you be more productive with Craft CMS",
     "require": {
+        "php": "^7.3",
         "craftcms/cms": "^3.6"
     },
     "license": "MIT",
