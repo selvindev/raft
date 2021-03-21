@@ -1,9 +1,9 @@
 {
     "name": "selvinortiz/raft",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A set of utilities fastened together to help you be more productive with Craft CMS",
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.3.0",
         "craftcms/cms": "^3.6"
     },
     "license": "MIT",
