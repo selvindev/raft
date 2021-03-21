@@ -15,8 +15,8 @@ class WebController extends \craft\web\Controller
     public function init()
     {
         $this->_params = array_merge(
-            Craft::$app->request->getQueryParams(),
-            Craft::$app->request->getBodyParams(),
+            Craft::$app->getRequest()->getQueryParams(),
+            Craft::$app->getRequest()->getBodyParams(),
         );
 
         $this->_rawBody = Craft::$app->getRequest()->getRawBody();
