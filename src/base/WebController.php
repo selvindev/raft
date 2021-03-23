@@ -42,6 +42,11 @@ class WebController extends \craft\web\Controller
         return ArrayHelper::getValue($this->_params, $key, $default);
     }
 
+    public function params(): array
+    {
+        return $this->_params;
+    }
+
     public function asJsonWithSuccess($message, $data = [])
     {
         $data['success']  = $data['success'] ?? true;
